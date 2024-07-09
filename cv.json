@@ -1,0 +1,192 @@
+{
+  "basics": {
+    "name": "Juan Becerra",
+    "label": "Desarrollador Full-Stack",
+    "image": "/me.png",
+    "email": "juanpbrizo@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "habilidades sólidas en el diseño e implementación de aplicaciones web, y en el desarrollo de interfaces de usuario intuitivas y funcionales. Experiencia trabajando con equipos colaborativos para establecer metas claras y garantizar la entrega de proyectos de alta calidad, que cumplan con los estándares y especificaciones requeridas. Habilidad para trabajar en entornos cambiantes que requieran la la disposición de asumir nuevos desafíos.",
+    "location": {
+      "address": "",
+      "postalCode": "1416",
+      "city": "Ciudad Autónoma de Buenos Aires",
+      "countryCode": "ES",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juanpbrizo",
+        "url": "https://linkedin.com/in/juanpbrizo"
+      },
+      {
+        "network": "GitHub",
+        "username": "juanpbrizo",
+        "url": "https://github.com/juanpbrizo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Gaming Solution technology",
+      "position": "Administrador de Infraestructura de Servidores y Desarrollador Web",
+      "startDate": "2022-12-01",
+      "endDate": null,
+      "summary": "Desempeño de tareas de infraestructura tecnológica: instalación de servidores físicos, implementación de servidores virtuales en Hyper-V y VMware, despliegue de proyectos web en diferentes plataformas.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Outsourcing Empresarial del Perú",
+      "position": "Desarrollador",
+      "startDate": "2017-10-01",
+      "endDate": "2022-11-01",
+      "summary": "Diseño e implementación múltiples aplicativos móviles con AppSheet para mejorar la recolección de datos en inspecciones inmobiliarias. Uso de VBA en hojas de cálculo para agilizar la elaboración de informes.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Universidad Politécnica “Antonio José de Sucre” - UNEXPO",
+    "url": "https://virtualunexpo.com/",
+    "area": "Ingeniero en Mecatrónica",
+    "studyType": "Ingeniero",
+    "startDate": "2007-08-01",
+    "endDate": "2014-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "Html",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Css",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "DUAs scanner",
+      "isActive": true,
+      "description": "Desarrollo de un buscador de DUAs (Declaraciones Únicas de Aduanas) para las importaciones de maquinarias, destinado a obtener valores comparables para las tasaciones bancarias. Este proyecto ayuda a la empresa a optimizar los tiempos de elaboración y entrega de informes de tasación, mejorando la eficiencia del proceso.",
+      "pictures": [
+        "/ITP1.jpg",
+        "/ITP2.jpg",
+        "/ITP3.jpg"
+      ],
+      "url": "http://serv-api.ddns.net",
+      "github": "https://github.com/juanpbrizo/DUAs-Scanner.git",
+      "Functions": [
+        "Control de acceso mediante registro de usuarios",
+        "Confirmación de cuenta via email",
+        "Administración de usuarios"
+      ],
+      "skills": [ 
+        
+        {
+          "name":"React"
+        }, 
+        {
+          "name":"Node"
+        },
+        {
+          "name":"Express"
+        },
+        {
+          "name":"MySql"
+        },
+        {
+          "name":"Docker"
+        }
+      ]
+    }
+  ]
+}

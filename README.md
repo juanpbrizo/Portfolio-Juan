@@ -1,8 +1,13 @@
-# React + Vite
+# Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Este es mi portafolio personal, diseñado para mostrar mis habilidades y proyectos como desarrollador web. La aplicación está construida utilizando React y Tailwind CSS para proporcionar una experiencia de usuario moderna y receptiva.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
+- **Front-End Framework:** React
+- **Estilos:** Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+- **Página de Inicio:** Una vista general de mi perfil, incluyendo una breve biografía y enlaces a mis redes sociales.
+- **Proyectos:** Una sección detallada con una lista de proyectos destacados, cada uno con una descripción, tecnologías utilizadas y enlaces al repositorio en GitHub o una demo en vivo.
+

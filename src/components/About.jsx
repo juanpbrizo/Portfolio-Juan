@@ -8,24 +8,24 @@ const { Mail, Phone } = Icons
 const About = () => {
   return (
     <div className='flex pt-20 bg-zinc-900 ' id='About'>
-      <div className=' pt-10 w-2/4'>
+      <div className=' pt-10 w-4/4 md:w-2/4'>
         {/* Titulo */}
-        <div className='pl-10 py-5'>
-          <h1 className=' text-8xl font-bold mb-2'>
+        <div className='px-5 md:pl-10 py-5'>
+          <h1 className=' text-6xl md:text-8xl font-bold mb-2'>
             Juan
             <br />
             Becerra
           </h1>
-          <h2 className='text-4xl'>{label}</h2>
+          <h2 className=' text-2xl md:text-4xl'>{label}</h2>
         </div>
         {/* Descripción */}
-        <div className=' relative pl-10 py-1 z-40'>
-          <p className=' text-sm text-justify'>{summary}</p>
+        <div className=' relative px-5 md:pl-10 py-1 z-40'>
+          <p className=' text-sm'>{summary}</p>
         </div>
         {/* Redes y Contacto */}
-        <div className=' relative pl-10 flex items-center pt-10 z-40'>
-          <span className='text-lg font-serif'>Visita:</span>
-          <div className=' flex ml-5'>
+        <div className=' relative pl-10 flex items-center py-10 z-40'>
+          <span className=' text-base md:text-lg font-serif'>Visita:</span>
+          <div className=' flex ml-3 md:ml-5'>
             {profiles.map(({ network, url }) => {
               const Icon = Icons[network]
               return (
@@ -35,23 +35,23 @@ const About = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   key={network}
-                  className=' m-2 bg-green-700 h-12 w-12 rounded-full flex justify-center items-center hover:bg-green-500'
+                  className=' m-1 md:m-2 bg-green-700 h-12 w-12 rounded-full flex justify-center items-center hover:bg-green-500'
                 >
                   <Icon style={{ width: '20px', height: '20px' }} />
                 </a>
               )
             })}
           </div>
-          <div className=' ml-10 flex items-center'>
-            <samp className='text-lg font-serif'>Contácteme:</samp>
-            <div className=' flex ml-5'>
+          <div className=' ml-5 md:ml-10 flex items-center'>
+            <samp className='text-base md:text-lg font-serif'>Contácteme:</samp>
+            <div className=' flex ml-3 md:ml-5'>
               {email && (
                 <a
                   href={`mailto:${email}`}
                   title={`Enviar un correo electrónico a ${name} al correo ${email}`}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='  m-2 bg-green-700 h-12 w-12 rounded-full flex justify-center items-center hover:bg-green-500'
+                  className='m-1 md:m-2 bg-green-700 h-12 w-12 rounded-full flex justify-center items-center hover:bg-green-500'
                 >
                   <Mail style={{ width: '20px', height: '20px' }} />
                 </a>
@@ -71,7 +71,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=' w-2/4 pt-16 text-center flex justify-center items-center'>
+      <div className=' w-2/4 pt-16 text-center justify-center items-center hidden md:flex'>
         <div id='Container' className=' relative' style={{ width: '530px', height: '500px' }}>
           <div
             id='Icon'

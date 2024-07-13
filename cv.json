@@ -156,7 +156,7 @@
     {
       "name": "DUAs scanner",
       "isActive": true,
-      "description": "Desarrollo de un buscador de DUAs (Declaraciones Únicas de Aduanas) para las importaciones de maquinarias, destinado a obtener valores comparables para las tasaciones bancarias. Este proyecto ayuda a la empresa a optimizar los tiempos de elaboración y entrega de informes de tasación, mejorando la eficiencia del proceso.",
+      "description": "Buscador de DUAs (Declaraciones Únicas de Aduanas) para las importaciones de maquinarias, destinado a obtener valores comparables para las tasaciones bancarias. Este proyecto ayuda a la empresa a optimizar los tiempos de elaboración y entrega de informes de tasación, mejorando la eficiencia del proceso.",
       "pictures": [
         "/ITP1.jpg",
         "/ITP2.jpg",
